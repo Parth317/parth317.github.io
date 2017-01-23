@@ -1,7 +1,7 @@
 body { background: url(cloud.jpg);
 }
 
-a:  {
+a  {
 	color: yellow;
 }
 
@@ -27,19 +27,21 @@ footer {
 	height: 100px;
 	margin-left: 115px;
 	width: 400px;
-	font-size: 15px;
+	font-size: 10px;
 	background-color: #283DB7;
 	font-family: helvetica;
 }
 
 
 p{
-	background-image: paper.gif;
+	
 	background-color: #7D7C88;
 }
 
-@media (max-width: 100px) {
-	ul {font-size: 2em;}
+@media all and (min-width: 500px) {
+	 footer  {font-size: 1em;}
+
+
 }
 
 ul {
@@ -56,3 +58,4 @@ a.trick:visited {
 
 th {color: green}
 tr {color: red}
+
