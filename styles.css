@@ -53,3 +53,6 @@ a.trick {
 a.trick:visited {
 	color: #731E15;
 }
+
+th {color: green}
+tr {color: red}
